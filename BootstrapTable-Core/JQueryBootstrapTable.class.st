@@ -1,8 +1,8 @@
 Class {
 	#name : 'JQueryBootstrapTable',
 	#superclass : 'JQueryInstance',
-	#category : 'BootstrapTable-JQuery',
-	#package : 'BootstrapTable-JQuery'
+	#category : 'BootstrapTable-Core',
+	#package : 'BootstrapTable-Core'
 }
 
 { #category : 'actions' }
