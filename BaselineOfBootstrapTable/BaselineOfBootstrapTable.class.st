@@ -30,7 +30,8 @@ BaselineOfBootstrapTable >> bootstrap5: spec [
 
 	spec
 		baseline: 'Bootstrap5' with: [ spec repository: 'github://astares/Seaside-Bootstrap5:master/src' ];
-		project: 'Bootstrap5-Core' copyFrom: 'Bootstrap5' with: [ spec loads: #( 'Core' ) ]
+		project: 'Bootstrap5-Core' copyFrom: 'Bootstrap5' with: [ spec loads: #( 'Core' ) ];
+		project: 'Bootstrap5-default' copyFrom: 'Bootstrap5' with: [ spec loads: #( 'default' ) ]
 ]
 
 { #category : 'baselines' }
