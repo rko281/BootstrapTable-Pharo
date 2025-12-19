@@ -1,6 +1,6 @@
 Extension { #name : 'JQueryClass' }
 
-{ #category : '*BootstrapTable-Javascript' }
+{ #category : '*BootstrapTable-JQuery' }
 JQueryClass >> bootstrapTable: aString [
 
 	^(self id: aString) as: JQueryBootstrapTable

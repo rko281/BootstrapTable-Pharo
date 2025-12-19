@@ -1175,9 +1175,10 @@ SBSTable >> whenAny: aCollection evaluate: aFunction on: html [
 
 	aCollection do: [ :each | writeStream nextPutAll: each; nextPutAll: '.bs.table'] separatedBy: [writeStream space].
 
-	writeStream nextPutAll: ''','.
-	aFunction javascriptOn: writeStream.
-	writeStream nextPut: $).
+	writeStream 
+		nextPutAll: ''',';
+		nextPutAll: aFunction asJavascript;
+		nextPut: $).
 
 	html script: writeStream contents
 ]
