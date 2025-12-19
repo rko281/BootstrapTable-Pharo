@@ -2,7 +2,7 @@
 A [Seaside](https://github.com/seasidest/seaside) component for [Pharo](https://pharo.org/) wrapping [Bootstrap Table](https://bootstrap-table.com/).
 
 ## Getting Started
-* Install [Pharo](https://pharo.org/) (currently tested with Pharo 12)
+* Install [Pharo](https://pharo.org/) (currently tested with Pharo 13)
 
 ## Installation
 * Evaluate:
